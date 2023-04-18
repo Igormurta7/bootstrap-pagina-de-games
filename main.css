@@ -3,46 +3,46 @@ body {
 }
 
 .navbar {
-  background-color: #e15f41;
+  background-color: rgb(97, 58, 176);
 }
 
 #cabecalho .nav .nav-link.active {
-  background-color: #fff;
-  color: #e15f41;
+  background-color: white;
+  color: rgb(97, 58, 176);
 }
 
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
-  color: #fff;
+.nav-jogos .nav-link.active:hover {
+  color: white;
 }
 
 .navbar-toggler {
-  background-color: #ffeae6;
+  background-color: rgb(168, 150, 206);
 }
 
 .section-title {
-  font-family: Pacifico, cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
-#sobre-o-restaurante,
-#cardapio {
-  background-color: #ffeae6;
+#sobre-a-loja,
+#contato {
+  background-color: rgb(168, 150, 206);
 }
 
 .text-colored {
-  color: #e15f41;
+  color: rgb(97, 58, 176);
 }
 
-.nav-cardapio .nav-link.active,
-#fale-conosco button {
-  background-color: #e15f41;
-  color: #fff;
+.nav-jogos .nav-link.active,
+#contato button {
+  background-color: rgb(97, 58, 176);
+  color: white;
 }
 
-.nav-cardapio .nav-link:hover {
-  color: #e15f41;
+.nav-loja .nav-link:hover {
+  color: rgb(97, 58, 176);
 }
 
 .social-links li {

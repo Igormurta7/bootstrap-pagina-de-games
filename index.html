@@ -11,20 +11,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="main.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Loja de Games do Igor</title>
   </head>
   <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
       <div class="container">
-        <h1 class="navbar-brand m-0 section-title">Nome do restaurante</h1>
+        <h1 class="navbar-brand m-0 section-title">Loja de Games do Igor</h1>
         <button
           class="navbar-toggler"
           data-bs-toggle="collapse"
@@ -38,28 +40,22 @@
         >
           <ul class="nav nav-pills d-block d-md-flex">
             <li class="nav-item fw-bold">
-              <a href="#sobre-o-restaurante" class="nav-link">
+              <a href="#sobre-a-loja" class="nav-link">
                 <i class="bi bi-house-door me-1"></i>
-                Sobre o restaurante
+                Sobre a Loja de Games do Igor
               </a>
             </li>
             <li class="nav-item fw-bold">
-              <a href="#eventos" class="nav-link">
-                <i class="bi bi-calendar-check me-1"></i>
-                Eventos</a
-              >
+              <a href="#jogos" class="nav-link">
+                <i class="bi bi-controller me-1"></i>
+                Jogos
+              </a>
             </li>
             <li class="nav-item fw-bold">
-              <a href="#cardapio" class="nav-link">
-                <i class="bi bi-card-text me-1"></i>
-                Nosso cardápio</a
-              >
-            </li>
-            <li class="nav-item fw-bold">
-              <a href="#fale-conosco" class="nav-link">
+              <a href="#contato" class="nav-link">
                 <i class="bi bi-chat-left-text me-1"></i>
-                Fale conosco</a
-              >
+                Contato
+              </a>
             </li>
           </ul>
         </nav>
@@ -70,20 +66,29 @@
       data-bs-target="cabecalho"
       data-bs-smooth-scroll="true"
     >
-      <section id="sobre-o-restaurante">
+      <section id="sobre-a-loja">
         <div class="carousel slide" data-bs-ride="carousel" id="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
               <img
-                src="/images/slides/slide1.png"
-                alt="Espaço interno do restaurante"
+                src="https://cdn.pixabay.com/photo/2020/10/15/07/45/playstation-5656248_960_720.jpg"
+                alt="Playstation 5"
+                class="w-100"
               />
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img src="/images/slides/slide2.png" alt="Duas taças de vinho" />
+              <img
+                src="https://cdn.pixabay.com/photo/2021/03/01/22/56/video-6061087_960_720.png"
+                alt="Xbox"
+                class="w-100"
+              />
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img src="/images/slides/slide3.png" alt="Uma mesa com comidas" />
+              <img
+                src="https://cdn.pixabay.com/photo/2020/04/15/15/00/gamer-5046924_960_720.jpg"
+                alt="Nintendo Switch"
+                class="w-100"
+              />
             </div>
           </div>
           <button
@@ -126,336 +131,85 @@
             <div class="row">
               <div class="col-md-5">
                 <img
-                  src="/images/restaurante.jpg"
-                  alt="Espaço interno do restaurante"
+                  src="/img/interior loja.webp"
+                  alt="Interior da loja"
                   class="d-block w-100 rounded"
                 />
               </div>
               <div class="col-md-7 mt-3 mt-md-0">
-                <h2 class="section-title">
-                  Sobre o <span class="text-colored">Restaurante</span>
+                <h2 class="section-title fs-4">
+                  Sobre a
+                  <span class="text-colored">Loja de Games do Igor</span>
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Possimus, corrupti cumque nihil animi ut similique natus
-                  necessitatibus quis amet reprehenderit modi, doloribus ullam
-                  qui libero eaque. Totam est doloremque in.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Veritatis repudiandae, incidunt obcaecati voluptates odio
+                  architecto delectus sapiente officiis est, nemo fugiat ipsa
+                  dignissimos vitae impedit possimus tenetur beatae, sequi
+                  soluta!
                 </p>
-                <h3 class="section-title">
+                <h3 class="section-title fs-4">
                   Sobre o <span class="text-colored">Espaço</span>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Officia aut delectus quis, sed deserunt, voluptatem deleniti
-                  minus consectetur, corporis ut velit ex dolor repudiandae
-                  dolorum itaque iusto a iure ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                  optio quibusdam aperiam deleniti, aliquam repellendus facilis
+                  cupiditate expedita commodi. Voluptate nulla nisi ad
+                  consectetur sunt animi architecto iste eveniet cumque.
                 </p>
-                <ul>
-                  <li>Item 1</li>
-                  <li>Item 2</li>
-                  <li>Item 3</li>
-                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="eventos" class="pt-5 pb-5">
-        <div class="container">
-          <div class="row">
-            <h2 class="section-title text-center">
-              Para todas as <span class="text-colored">ocasiões</span>
-            </h2>
-          </div>
-          <div class="row mt-4">
-            <div class="col-md-4">
-              <img
-                src="/images/eventos/aniversario.jpg"
-                alt=""
-                class="d-block w-100 rounded mb-2"
-              />
-              <h3 class="section-title text-colored fs-4">
-                <i class="bi bi-calendar-heart-fill"></i>
-                Aniversários
-              </h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-                veritatis, sint nobis tenetur, laborum accusantium qui repellat
-                vel quod, inventore nulla error dignissimos laboriosam ut ipsa
-                recusandae tempore nemo voluptates!
-              </p>
-            </div>
-            <div class="col-md-4">
-              <img
-                src="/images/eventos/casamento.jpg"
-                alt=""
-                class="d-block w-100 rounded mb-2"
-              />
-              <h3 class="section-title text-colored fs-4">
-                <i class="bi bi-arrow-through-heart-fill"></i>
-                Recepção para casamentos
-              </h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-                veritatis, sint nobis tenetur, laborum accusantium qui repellat
-                vel quod, inventore nulla error dignissimos laboriosam ut ipsa
-                recusandae tempore nemo voluptates!
-              </p>
-            </div>
-            <div class="col-md-4">
-              <img
-                src="/images/eventos/confraternizacoes.jpg"
-                alt=""
-                class="d-block w-100 rounded mb-2"
-              />
-              <h3 class="section-title text-colored fs-4">
-                <i class="bi bi-people-fill"></i>
-                Confraternizações
-              </h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-                veritatis, sint nobis tenetur, laborum accusantium qui repellat
-                vel quod, inventore nulla error dignissimos laboriosam ut ipsa
-                recusandae tempore nemo voluptates!
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="cardapio" class="pt-5 pb-5">
+      <section id="jogos" class="pt-5 pb-5">
         <div class="container">
           <div class="row">
             <h2 class="section-title text-center mb-5">
-              Nosso <span class="text-colored">cardápio</span>
+              Nossos <span class="text-colored">jogos</span>
             </h2>
           </div>
           <div class="row">
             <aside class="col-md-2">
-              <nav class="nav nav-pills flex-column nav-cardapio">
+              <nav class="nav nav-pills flex-column nav-jogos">
                 <button
                   type="button"
                   data-bs-toggle="tab"
-                  data-bs-target="#bebidas-sem-alcool"
+                  data-bs-target="#jogos-playstation"
                   class="fw-bold text-start nav-link text-colored active"
                 >
-                  Bebidas não alcoólicas
+                  PlayStation
                 </button>
                 <button
                   type="button"
                   data-bs-toggle="tab"
-                  data-bs-target="#bebidas-alcoolicas"
+                  data-bs-target="#jogos-xbox"
                   class="fw-bold text-start nav-link text-colored"
                 >
-                  Bebidas alcoólicas
+                  Xbox
                 </button>
                 <button
                   type="button"
                   data-bs-toggle="tab"
-                  data-bs-target="#entradas"
+                  data-bs-target="#jogos-nintendo"
                   class="fw-bold text-start nav-link text-colored"
                 >
-                  Entradas
-                </button>
-                <button
-                  type="button"
-                  data-bs-toggle="tab"
-                  data-bs-target="#pratos-principais"
-                  class="fw-bold text-start nav-link text-colored"
-                >
-                  Pratos principais
-                </button>
-                <button
-                  type="button"
-                  data-bs-toggle="tab"
-                  data-bs-target="#sobremesas"
-                  class="fw-bold text-start nav-link text-colored"
-                >
-                  Sobremesas
+                  Nintendo
                 </button>
               </nav>
             </aside>
             <div class="col-md-10">
               <div class="tab-content">
-                <div class="tab-pane active" id="bebidas-sem-alcool">
+                <div class="tab-pane active" id="jogos-playstation">
                   <div class="row">
                     <div class="col-md-3">
                       <img
-                        src="/images/cardapio/bebidas/coca-cola.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/bebidas/suco.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/bebidas/suco.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/bebidas/suco.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/bebidas/suco.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/bebidas/suco.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane" id="bebidas-alcoolicas">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/bebidas/cerveja.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/bebidas/vinho.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Vinho</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane" id="entradas">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/entradas/entrada.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/entradas/entrada.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/entradas/entrada.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/entradas/entrada.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane" id="pratos-principais">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/pratos/pizza.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Pizza</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/pratos/salmao.jpg"
-                        alt=""
-                        class="d-block w-100"
-                      />
-                      <h5 class="text-colored fw-bold mt-2">Salmão</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane" id="sobremesas">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <img
-                        src="/images/cardapio/sobremesas/bolo.jpg"
-                        alt=""
+                        src="https://cdn.awsli.com.br/800x800/1722/1722553/produto/182112763/tmpgodofwarragnarkcapafrontal1-6a971d501d.jpg"
+                        alt="Jogo God of War Ragnarok"
                         class="d-block w-100"
                       />
                       <h5 class="text-colored fw-bold mt-2">
-                        Bolo de chocolate
+                        God of War Ragnarok
                       </h5>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -463,11 +217,102 @@
                     </div>
                     <div class="col-md-3">
                       <img
-                        src="/images/cardapio/sobremesas/cupcake.jpg"
-                        alt=""
+                        src="https://d1sfzvg6s5tf2e.cloudfront.net/Custom/Content/Products/32/22/3222_horizon-forbidden-west-ps5_z1_638010133911847576.jpg"
+                        alt="Jogo Horizon Forbidden West"
                         class="d-block w-100"
                       />
-                      <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                      <h5 class="text-colored fw-bold mt-2">
+                        Horizon Forbidden West
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        src="https://playstation.trilogygames.com.br/image/cache/catalog/playstation/ps5/returnal-494x494.png"
+                        alt="Jogo Returnal"
+                        class="d-block w-100"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">Returnal</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="jogos-xbox">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        src="https://images-americanas.b2w.io/produtos/5094020757/imagens/gears-of-war-ultimate-edition-xbox-one/5094020757_1_large.jpg"
+                        alt="Jogo Gears of War"
+                        class="d-block w-100"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">Gears of War</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        src="https://cdn.awsli.com.br/300x300/138/138431/produto/8826156/1872712581.jpg"
+                        alt="Jogo Halo"
+                        class="d-block w-100"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">Halo</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        src="https://carrefourbr.vtexassets.com/arquivos/ids/77089746/e632e28cd09d446f82251da408d51592.jpg?v=638001776449170000"
+                        alt="Jogo Forza"
+                        class="d-block w-100"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">Forza</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="jogos-nintendo">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        src="https://dw0jruhdg6fis.cloudfront.net/producao/19351799/G/985175_4707_super_smash_bros_ultimate_switch_z6_636764986696856623.jpg"
+                        alt="Jogo Super Smash Bros"
+                        class="d-block w-100"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Super Smash Bros
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        src="https://cdn.awsli.com.br/800x800/2145/2145953/produto/195770282/whatsapp-image-2023-01-03-at-16.31.11-(1)-4be064c250.jpg"
+                        alt="Jogo Super Mario Odyssey"
+                        class="d-block w-100"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Super Mario Odyssey
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        src="https://www.atacadogames.com/imagem/jogos-nintendo-switch/jogo-kirby%27s-return-to-dream-land-delux-para-nintendo-switch/2/168157.jpg?pfdrid_c=true"
+                        alt="Jogo Kirby"
+                        class="d-block w-100"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">Kirby</h5>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </p>
@@ -479,10 +324,10 @@
           </div>
         </div>
       </section>
-      <section id="fale-conosco" class="pt-5 pb-5">
+      <section id="contato" class="pt-5 pb-5">
         <div class="container">
           <div class="row">
-            <h2 class="section-title text-center">
+            <h2 class="section-title text-center fs-4">
               Fale <span class="text-colored">conosco</span>
             </h2>
           </div>
@@ -527,9 +372,9 @@
             </div>
             <div class="col-md-5">
               <div class="row">
-                <h3 class="section-title fs-4 text-colored">
+                <h3 class="section-title fs-5 text-colored">
                   <i class="bi bi-hand-thumbs-up-fill"></i>
-                  Redes sociais
+                  Redes Sociais
                 </h3>
                 <ul class="social-links">
                   <li class="fs-5">
@@ -543,18 +388,18 @@
                     </a>
                   </li>
                   <li class="fs-5">
-                    <a href="#">
+                    <a href="">
                       <i class="bi bi-whatsapp text-colored"></i>
                     </a>
                   </li>
                 </ul>
               </div>
               <div class="row mt-4">
-                <h3 class="section-title fs-4 text-colored">
+                <h3 class="section-title fs-5 text-colored">
                   <i class="bi bi-cursor-fill"></i>
                   Endereço
                 </h3>
-                <p>Rua São Paulo 42, Lourdes - Belo Horizonte - MG</p>
+                <p>Rua Rio de Janeiro 64, Belo Horizonte - MG</p>
               </div>
             </div>
           </div>
